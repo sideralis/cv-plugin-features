@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="Intel_IMC_CV_Plugin"
+      label="Intel_IMC_CV_Plugin"
+      version="1.14.0.qualifier"
+      plugin="com.infineon.cv">
+
+   <description>
+      Tools to allow Intel IMC testcase development with C language.
+   </description>
+
+   <copyright>
+      Copyrignt all rights reserved to Intel IMC.
+   </copyright>
+
+   <license url="">
+      No license.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.cdt.core" version="5.1.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.cdt.managedbuilder.core" version="6.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.debug.ui" version="3.5.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.5.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.5.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.5.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.cdt.make.ui"/>
+   </requires>
+
+   <plugin
+         id="com.infineon.cv"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
