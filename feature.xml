@@ -2,7 +2,7 @@
 <feature
       id="Intel_IMC_CV_Plugin"
       label="Intel_IMC_CV_Plugin"
-      version="1.14.0.qualifier"
+      version="1.15.0.qualifier"
       plugin="com.infineon.cv">
 
    <description>
